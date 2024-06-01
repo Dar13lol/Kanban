@@ -1,0 +1,95 @@
+.list {
+	width: 282px;
+	background: #EBECF0;
+	padding: 12px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	box-shadow: 2px 2px 8px rgb(0 0 0 / 20%);
+}
+
+	@media only screen (max-width: 389.98px) {
+		.list {
+		width: 100%;
+		height: auto;
+        overflow: visible;
+		justify-content: center
+		}
+	}
+
+
+.listTitle {
+	margin-top: 0;
+	font-size: 18px;	
+}
+
+.task {
+	background: #FFFFFF;
+	color: #000000;
+	font-size: 18px;
+	margin: 7px 0;
+	padding: 8px;
+	border-radius: 5px;
+}
+
+.task:hover {
+	text-decoration: none;
+}
+
+.taskLink {
+	text-decoration: none;
+}
+
+.addButton {
+	background: none;
+	border: none;
+	appearance: none;
+	font-size: 18px;
+	color: #5E6C84;
+	margin-top: auto;
+	margin-bottom: 8px;
+	cursor: pointer;
+}
+
+.addButton:disabled {
+	background: none;
+	border: none;
+	appearance: none;
+	font-size: 18px;
+	color: #737373;
+	margin-top: auto;
+	margin-bottom: 8px;
+	cursor: default;
+}
+
+.addButton:hover {
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+.addButton:hover:disabled {
+	background: none;
+	border-radius: 5px;
+}
+.wrapper {
+	position: relative;
+	
+}
+.buttonRemove {
+	position: absolute;
+	display: flex;
+	right: 8px;
+    top: 6px;
+	border: none;
+	cursor: pointer;
+	height: 16px;
+    width: 15px;
+	background-color: transparent;
+	
+}
+  
+.buttonRemove:hover {
+	color: red;
+}
+    
+

@@ -1,0 +1,14 @@
+.board {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 389.98px) and (min-width: 389.98px) {
+	.board {
+		display: block;
+        overflow: visible;
+		justify-content: center;
+	}
+}

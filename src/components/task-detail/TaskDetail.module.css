@@ -1,0 +1,95 @@
+.wrapper {
+	background: #fff;
+	border-radius: 8px;
+	padding: 20px;
+    height: 25rem;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title {
+	margin: 0;
+}
+
+.createdAt {
+	color: #737373;
+	font-style: italic;
+}
+
+.status {
+	color: #fff;
+	background: #465571;
+	font-weight: bold;
+	margin: 0;
+	padding: 8px 20px;
+	border-radius: 20px;
+}
+
+.label {
+	margin-bottom: 10px;
+}
+
+.select {
+	padding: 8px;
+	border-radius: 8px;
+}
+
+.homeLink {
+	display: block;
+	margin: 20px 0;
+	text-decoration: none;
+	color: #737373;
+}
+
+.homeLink:hover {
+	color: #000;
+}
+
+.emptyState {
+	text-align: center;
+}
+
+.emptyStateIcon {
+	width: 200px;
+}
+
+.btnEdit {
+    background: #0079BF;
+    font-size: 15px;
+	color: #FFFFFF;
+    margin: 7px 0px;
+	padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+	align-self: flex-start;
+}
+
+.btnEdit:hover {
+	background: #5d7194;
+}
+
+.p {
+    padding: 5px;
+    box-shadow: none
+  }
+  
+.p[contentEditable] {
+    box-shadow: 0 0 0 1px rgba(255, 0, 0, 0.205);
+    outline: none;
+  }
+
+.text[contentEditable] {
+    font-size: 18px;
+    box-shadow: none;
+    outline: none;
+}
+
+.textArea {
+	margin-left: 10px;
+	width: 100%;
+}
